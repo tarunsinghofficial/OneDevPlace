@@ -1,5 +1,7 @@
 <h1 style="text-align: center;">OneDevPlace</h1>
-![image](https://user-images.githubusercontent.com/62840625/115504900-461c8380-a296-11eb-861f-e6b1c760d329.png)
+
+![odp](https://user-images.githubusercontent.com/62840625/115504974-62b8bb80-a296-11eb-83ac-4a27a619efa6.PNG)
+
 
 # What is this?
 OneDevPlace is a place where you can find all Developers programs, student opportunities &amp; other resources at one place. Get related links for Internships, Externships, Research Opportunities.
