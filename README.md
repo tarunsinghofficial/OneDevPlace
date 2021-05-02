@@ -1,4 +1,4 @@
-<img align="center" alt="dschackfest" src="https://github.com/tarunsinghofficial/OneDevPlace/blob/main/Minimal%20Bright%20Gradient%20Technology%20Logo%20(1).png" height="500" width="500" style="max-width:100%;">
+<img align="center" alt="logo" src="https://github.com/tarunsinghofficial/OneDevPlace/blob/main/Minimal%20Bright%20Gradient%20Technology%20Logo%20(1).png" height="350" width="350" style="max-width:100%;">
 <h1 style="text-align: center;">OneDevPlace</h1>
 
 ![odp](https://user-images.githubusercontent.com/62840625/115504974-62b8bb80-a296-11eb-83ac-4a27a619efa6.PNG)
