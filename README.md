@@ -1,6 +1,6 @@
 <div align="center">
  <a href="http://onedevplace.netlify.app/" rel="nofollow"><img src="https://github.com/tarunsinghofficial/OneDevPlace/blob/main/Minimal%20Bright%20Gradient%20Technology%20Logo%20(1).png" height="350px" width="350px" style="max-width:100%;"></a>
-<h1>OneDevPlace</h1>
+<h1 style="font-size:800;">OneDevPlace</h1>
 </div>
 
 ![odp](https://user-images.githubusercontent.com/62840625/115504974-62b8bb80-a296-11eb-83ac-4a27a619efa6.PNG)
