@@ -1,15 +1,13 @@
 <div align="center">
- <a href="http://onedevplace.netlify.app/" rel="nofollow"><img src="https://github.com/tarunsinghofficial/OneDevPlace/blob/main/Minimal%20Bright%20Gradient%20Technology%20Logo%20(1).png" height="350px" width="350px" style="max-width:100%;"></a>
+ <a href="http://onedevplace.netlify.app/" rel="nofollow"><img src="https://github.com/tarunsinghofficial/OneDevPlace/blob/main/Minimal%20Bright%20Gradient%20Technology%20Logo%20(1).png" height="350px" width="430px" style="max-width:100%;"></a>
 <h1 style="font-size:800;">OneDevPlace</h1>
 </div>
 
 ![odp](https://user-images.githubusercontent.com/62840625/115504974-62b8bb80-a296-11eb-83ac-4a27a619efa6.PNG)
 
-
 # What is this?
 OneDevPlace is a place where you can find all Developers programs, student opportunities &amp; other resources at one place. Get related links for Internships, Externships, Research Opportunities.
 
-# Tech Stack Used:
 <h2><a id="user-content-browser-support" class="anchor" aria-hidden="true" href="#browser-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Browser Support</h2>
 <ul>
 <li><strong>Firefox</strong>:	version 4 and up</li>
