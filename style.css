@@ -1,4 +1,3 @@
-
 /* Preloader */
 .loader-wrapper {
   width: 100%;
@@ -7,17 +6,16 @@
   top: 0;
   left: 0;
   background-color: #05343a;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .loader {
   display: inline-block;
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #Fff;
+  border: 4px solid #fff;
   animation: loader 3s infinite ease;
 }
 .loader-inner {
@@ -29,37 +27,55 @@
 }
 
 @keyframes loader {
-  0% { transform: rotate(0deg);}
-  25% { transform: rotate(180deg);}
-  50% { transform: rotate(180deg);}
-  75% { transform: rotate(360deg);}
-  100% { transform: rotate(360deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes loader-inner {
-  0% { height: 0%;}
-  25% { height: 0%;}
-  50% { height: 100%;}
-  75% { height: 100%;}
-  100% { height: 0%;}
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
 }
-
 
 .about {
   text-align: center;
-  margin-bottom:0; 
+  margin-bottom: 0;
   padding: 70px;
 }
 
 .text-center {
-  background: #093028; 
-  background: -webkit-linear-gradient(to right, #237A57, #093028); 
-  background: linear-gradient(to right, #237A57, #093028);
-
+  background: #093028;
+  background: -webkit-linear-gradient(to right, #237a57, #093028);
+  background: linear-gradient(to right, #237a57, #093028);
 }
 
 nav {
-  background-color:#05343a;
+  background-color: #05343a;
 }
 
 html {
@@ -67,93 +83,112 @@ html {
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgb(54, 52, 52); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(54, 52, 52); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
 
-  .line-1{
-    position: relative;
-    top: 80%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 60px;
-    text-align: center ;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.line-1 {
+  position: relative;
+  top: 80%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 60px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
 }
 
 /* Animation */
-  .anim-typewriter{
-    animation: typewriter 2s steps(44) 1s 1 normal both;
+.anim-typewriter {
+  animation: typewriter 2s steps(44) 1s 1 normal both;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 12em;}
+  to {
+    width: 12em;
   }
+}
 
-  /* Social media icons */
+/* Social media icons */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 799px) {
   .icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display: none;
   }
-  
-  /* Style the icon bar links */
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-  }
-  
-  @media screen and (max-width: 799px) {
-    .icon-bar {
-        display:none;
-    }
- }
+}
 
-  /* Style the social media icons with color, if you want */
-  .icon-bar a:hover {
-    background-color: rgb(196, 184, 184);
-  }
-  
-  .twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .google {
-    background: #dd4b39;
-    color: white;
-  }
-  
-  .linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .youtube {
-    background: #000000;
-    color: white;
-  }
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: rgb(196, 184, 184);
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #000000;
+  color: white;
+}
+
+#swag-cont {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid #05343a;
+  padding: 10px;
+  background: #093028;
+  background: linear-gradient(to right, #237a57, #093028);
+}
+
+#cont {
+  font-size: 20px;
+  font-weight: bold;
+}
