@@ -57,6 +57,7 @@
         <li class="nav-item">
           <a class="nav-link" style="color: white;" href="/Pages/open-s.html">Open-Source Programs</a>
         </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" style="color: white;">
@@ -75,13 +76,13 @@
       </ul>
     </div>
   </nav>
-<!-- The social media icon bar -->
-<div class="icon-bar">
-  <a href="https://twitter.com/itsTarun24" class="twitter"><i class="fa fa-twitter"></i></a>
-  <a href="mailto:onedevplace@gmail.com" class="google"><i class="fa fa-google"></i></a>
-  <a href="https://linkedin.com/company/OneDevPlace" class="linkedin"><i class="fa fa-linkedin"></i></a>
-  <a href="https://github.com/tarunsinghofficial/OneDevPlace" class="youtube"><i class="fa fa-github"></i></a>
-</div>
+  <!-- The social media icon bar -->
+  <div class="icon-bar">
+    <a href="https://twitter.com/itsTarun24" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="mailto:onedevplace@gmail.com" class="google"><i class="fa fa-google"></i></a>
+    <a href="https://linkedin.com/company/OneDevPlace" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/tarunsinghofficial/OneDevPlace" class="youtube"><i class="fa fa-github"></i></a>
+  </div>
   <section class="about">
     <div class="container">
       <p>Are you looking for Developer/ Student programs? Student opportunities? Then, you are at the right Place! <br>
@@ -101,7 +102,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1 style="font-family:sans-serif; padding-top: 30px; font-weight: bold; text-align: left;">Student
+        <h1 style=" font-family:sans-serif; padding-top: 30px; font-weight: bold; text-align: left;">Student
           Opportunities</h1>
       </div>
       <div class="col-5">There's no substitute for hands-on experience, but for most students, real-world tools can be
@@ -141,6 +142,46 @@
     </div>
   </div>
 
+  <div class="counter">
+    <div class="container">
+      <div class="row"></div>
+      <div class="col-lg-12">
+        <div class="data">
+          <p class="counter-count">85</p>
+          <p class="users">Users</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script>
+    $('.counter-count').each(function () {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+      }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
+    });
+  </script>
+
+  <div class="posts">
+    <div class="container">
+      <div class="info">
+        <h1 class="post-linkedin">Follow us on <strong>Linkedin<strong></h1>
+        <div class="no-posts">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6792725654560419840" class="post1"
+            height="500" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6795341959939575808" class="post2"
+            height="500" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
   <script>
@@ -197,6 +238,9 @@
     </div>
   </div>
 
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="tarunsingh24" data-description="Support me on Buy me a coffee!" data-message="" data-color="#40DCA5"
+    data-position="left" data-x_margin="18" data-y_margin="18"></script>
 
   <footer class="footer-same" style="position:inherit;
     right: 0;
